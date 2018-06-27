@@ -58,5 +58,19 @@ body {
 	background-color: rgba(19, 128, 26, .54);
 	border: 1px solid rgba(19, 128, 26, 0);
 	transition: 0.5s;
-
 }
+
+.fa-arrow-down {
+	margin-left: 40rem;
+	margin-top: 50px;
+	font-size: 2.5rem;
+	color: white;
+	transition: 0.3s;
+}
+
+.fa-arrow-down:hover {
+	color: rgba(19, 128, 36, .54);
+	transition: 0.3s;
+}
+
+
