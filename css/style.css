@@ -61,7 +61,7 @@ body {
 }
 
 .fa-arrow-down {
-	margin-left: 40rem;
+	margin-left: 35rem;
 	margin-top: 50px;
 	font-size: 2.5rem;
 	color: white;
@@ -71,6 +71,15 @@ body {
 .fa-arrow-down:hover {
 	color: rgba(19, 128, 36, .54);
 	transition: 0.3s;
+}
+
+/*spans*/
+
+.bold-green {
+	color: rgba(19, 128, 36, .9);
+}
+.green-underline {
+	border-bottom: 1px solid rgba(19, 128, 36, .9);
 }
 
 
