@@ -45,7 +45,8 @@ body {
 
 /*Buttons*/
 
-.btn-lg {
+.btn-lg,
+.btn-outline-success {
 	background-color: transparent;
 	border-radius: 5px;
 	border: 1px solid rgba(19, 128, 26, 1);
@@ -54,7 +55,10 @@ body {
 }
 .btn-lg:hover,
 .btn-lg:focus,
-.btn-lg:active{
+.btn-lg:active,
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active{
 	background-color: rgba(19, 128, 26, .54);
 	border: 1px solid rgba(19, 128, 26, 0);
 	transition: 0.5s;
@@ -82,4 +86,19 @@ body {
 	border-bottom: 1px solid rgba(19, 128, 36, .9);
 }
 
-
+/*navbar*/
+.navbar-brand {
+	font-family: "Cubano-Regular";
+	padding-right: 15px;
+}
+#main-nav {
+	font-family: "Nunito-Regular";
+}
+#main-nav li a {
+	border-bottom: 1px solid transparent;
+	transition: 0.5s;
+}
+#main-nav li a:hover {
+	border-bottom: 1px solid green;
+	transition: 0.5s;
+}
