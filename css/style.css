@@ -19,6 +19,7 @@ body {
 	src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
 }
 
+
 #cover {
 	height: 100%;
 	background: url('../img/trees.jpg') center;
@@ -27,8 +28,35 @@ body {
 }
 
 .wall-sticker {
+	background: rgba(0,0,0,.4);
 	padding: 14rem 20rem 16rem 3rem;
 	font-family: 'Cubano-Regular';
 	font-size: 5rem;
 	color: white;
+}
+
+.moto {
+	font-family: 'Cubano-Regular';
+	font-size: 3rem;
+	margin-top: 245px;
+	margin-left: 350px;
+	text-align: center;
+}
+
+/*Buttons*/
+
+.btn-lg {
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid rgba(19, 128, 26, 1);
+	font-family: 'Nunito-Regular';
+	transition: 0.5s;
+}
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active{
+	background-color: rgba(19, 128, 26, .54);
+	border: 1px solid rgba(19, 128, 26, 0);
+	transition: 0.5s;
+
 }
