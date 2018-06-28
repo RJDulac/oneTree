@@ -132,3 +132,6 @@ body {
 	width: 150px;
 	background-color: rgba(19, 128, 36, 1);
 }
+.heading, .under-heading {
+	text-align: center;
+}
