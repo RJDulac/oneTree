@@ -149,6 +149,7 @@ body {
 	position: relative;
 }
 
+/*gray line in center of timeline*/
 .timeline:before {
 	top: 0;
 	bottom: 0;
@@ -168,6 +169,7 @@ body {
 	content: "";
 	display: table;
 }
+/*needed because we have two floats in a row*/
 .timeline > li:after {
 	clear: both;
 }
@@ -207,4 +209,9 @@ body {
 	margin-left: -25px;
 	background-color: rgba(19, 128, 36, 0.82);
 	border-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+	float: right;
+
 }
