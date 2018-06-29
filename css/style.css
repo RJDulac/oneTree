@@ -188,7 +188,7 @@ body {
 	font-weight: 700;
 }
 
-.timeline > li::not(.timeline-inverted) {
+.timeline > li:not(.timeline-inverted) {
 	padding-right: 90px;
 }
 .timeline > li.timeline-inverted {
