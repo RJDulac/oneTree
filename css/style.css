@@ -135,3 +135,27 @@ body {
 .heading, .under-heading {
 	text-align: center;
 }
+
+/*timeline section*/
+
+.section-timeline {
+	background-color: white;
+	padding-top: 5rem;
+}
+.timeline {
+	list-style: none;
+	padding: 20px 0px 80px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.timeline:before {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 3px;
+	background-color: #eeeeee;
+	left: 50%;
+	margin-left: -1.5px;
+}
