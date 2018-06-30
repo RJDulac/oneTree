@@ -237,6 +237,27 @@ body {
 
 /*card section*/
 
-h2 {
+
+
+/*cards section*/
+
+#section-cards {
+	padding: 5rem 0;
+}
+#section-cards h2 {
 	text-align: center;
+}
+.card {
+	margin-top: 3rem;
+}
+
+.card a {
+	color: rgba(19, 128, 36, .90);
+}
+.card a:hover {
+	color: rgb(19, 128, 36);
+}
+
+.card-body {
+
 }
