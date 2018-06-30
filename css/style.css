@@ -266,3 +266,37 @@ transition: 1s;
 	transform: scale(0.98);
 	transition: 1s;
 }
+
+/*numbers section*/
+
+.section-numbers {
+	background: white;
+	padding-top: 5rem;
+}
+h2 {
+	text-align: center;
+}
+.num-content {
+	display: table;
+	font-size: 20px;
+	line-height: 20px;
+	height: 140px;
+	width: 140px;
+	background: rgba(19, 128, 46, 0.91);
+	border-radius: 100px;
+	color: white;
+}
+.num .num-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.num {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-left: 80px;
+}
+.num-content p {
+	padding-top: 15px;
+}
