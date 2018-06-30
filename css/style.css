@@ -257,7 +257,12 @@ body {
 .card a:hover {
 	color: rgb(19, 128, 36);
 }
-
-.card-body {
-
+.card img {
+/*	height: 180px;
+width: 415px;*/
+transition: 1s;
+}
+.card img:hover{
+	transform: scale(0.98);
+	transition: 1s;
 }
