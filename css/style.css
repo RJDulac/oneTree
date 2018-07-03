@@ -361,10 +361,6 @@ h2 {
 	margin-top: 10px;
 }
 
-#contact .btn {
-	font-size: 20px;
-	border-radius: 24px;
-}
 
 .form-control {
 	font-size: 18px;
@@ -380,4 +376,20 @@ input:focus {
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
 	/*outline: 0 none !important;*/
 
+}
+
+#contact .btn.btn-success {
+	border-color: rgba(19, 128, 36, 1);
+	border: 1px solid rgba(19, 128, 36, 1);
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 5rem;
+	transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+	background-color: rgba(19, 128, 36, .9);
+	border: 1px solid rgba(19, 128, 36, 1);
+	transition: 0.5s;
 }
