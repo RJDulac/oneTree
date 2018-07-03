@@ -347,3 +347,37 @@ h2 {
 	width: 260px;
 	background-color: rgba(19, 128, 36, 1);
 }
+
+/*contact section */
+
+.section-contact {
+	background-color: white;
+	padding: 10rem 0;
+}
+
+#contact .control-label {
+	font-size: 20px;
+	line-height: 80%;
+	margin-top: 10px;
+}
+
+#contact .btn {
+	font-size: 20px;
+	border-radius: 24px;
+}
+
+.form-control {
+	font-size: 18px;
+}
+
+.form-horizontal {
+	padding-top: 5rem;
+}
+
+textarea:focus, 
+input:focus {
+	border-color: rgba(19, 128, 36, 0.53) !important;
+	/*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05);*/
+	outline: 0 none;
+
+}
