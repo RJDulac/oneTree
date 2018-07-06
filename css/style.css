@@ -468,3 +468,9 @@ footer p {
 	color: rgba(14, 96, 27, 0.92);
 	transition: 0.2s;
 }
+
+/*animations*/
+
+.js-wp-1.animated {
+	opacity: 1;
+}
