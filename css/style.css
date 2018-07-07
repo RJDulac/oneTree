@@ -491,11 +491,18 @@ footer p {
 	animation-delay: 1.4s;
 
 }
-.js-wp-right,
-.js-wp-left {
+.js-wp-fade-in {
 	opacity: 0;
+	animation-delay: 0.7s;
 }
-.js-wp-right.animated,
-.js-wp-left.animated {
+.js-wp-fade-in.animated {
+	opacity: 1;
+}
+
+.js-wp-bounce-in-up {
+	opacity: 0;
+	animation-delay: 1.4s;
+}
+.js-wp-bounce-in-up.animated {
 	opacity: 1;
 }

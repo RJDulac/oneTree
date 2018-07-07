@@ -80,3 +80,17 @@ $('.js-wp-left').waypoint(function(direction) {
 	offset: '50%'
 })
 
+//timeline dates
+
+$('.js-wp-bounce-in-up').waypoint(function(direction) {
+	$('.js-wp-bounce-in-up').addClass('animated bounceInUp');
+}, {
+	offset: '50%'
+})
+
+$('.js-wp-fade-in').waypoint(function(direction) {
+	$('.js-wp-fade-in').addClass('animated fadeIn');
+}, {
+	offset: '50%'
+})
+
