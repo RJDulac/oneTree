@@ -68,4 +68,15 @@ $('.js-wp-4').waypoint(function(direction) {
 }, {
 	offset: '50%'
 })
+//timeline
+$('.js-wp-right').waypoint(function(direction) {
+	$('.js-wp-right').addClass('animated fadeInRight');
+}, {
+	offset: '50%'
+})
+$('.js-wp-left').waypoint(function(direction) {
+	$('.js-wp-left').addClass('animated fadeInLeft');
+}, {
+	offset: '50%'
+})
 

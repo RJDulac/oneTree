@@ -489,4 +489,13 @@ footer p {
 }
 .js-wp-4 {
 	animation-delay: 1.4s;
+
+}
+.js-wp-right,
+.js-wp-left {
+	opacity: 0;
+}
+.js-wp-right.animated,
+.js-wp-left.animated {
+	opacity: 1;
 }
