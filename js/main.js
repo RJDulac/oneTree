@@ -88,6 +88,7 @@ $('.js-wp-bounce-in-up').waypoint(function(direction) {
 	offset: '50%'
 })
 
+
 $('.js-wp-fade-in').waypoint(function(direction) {
 	$('.js-wp-fade-in').addClass('animated fadeIn');
 }, {
@@ -99,6 +100,37 @@ $('.js-wp-fade-in').waypoint(function(direction) {
 
 $('.js-wp-flip-in-x').waypoint(function(direction) {
 	$('.js-wp-flip-in-x').addClass('animated flipInX');
+}, {
+	offset: '50%'
+})
+
+//card animation
+$('.js-wp-rotate-in').waypoint(function(direction) {
+	$('.js-wp-rotate-in').addClass('animated rotateIn');
+}, {
+	offset: '50%'
+})
+
+//number content
+
+$('.js-wp-zoom-in').waypoint(function(direction) {
+	$('.js-wp-zoom-in').addClass('animated zoomIn');
+}, {
+	offset: '50%'
+})
+
+//testimonial cards
+
+$('.js-wp-bounce-in').waypoint(function(direction) {
+	$('.js-wp-bounce-in').addClass('animated bounceIn');
+}, {
+	offset: '50%'
+})
+
+//contact form animation
+
+$('.js-wp-jack-in-the-box').waypoint(function(direction) {
+	$('.js-wp-jack-in-the-box').addClass('animated jackInTheBox');
 }, {
 	offset: '50%'
 })
