@@ -506,3 +506,20 @@ footer p {
 .js-wp-bounce-in-up.animated {
 	opacity: 1;
 }
+.js-wp-flip-in-x {
+	opacity: 0;
+	animation-delay: 0.7s;
+}
+.js-wp-flip-in-x.animated {
+	opacity: 1;
+}
+
+.js-wp-left,
+.js-wp-right {
+	opacity: 0;
+	animation-delay: 0.7s;
+}
+.js-wp-left.animated,
+.js-wp-right.animated {
+	opacity: 1;
+}

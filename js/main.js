@@ -94,3 +94,12 @@ $('.js-wp-fade-in').waypoint(function(direction) {
 	offset: '50%'
 })
 
+//parallax section
+
+
+$('.js-wp-flip-in-x').waypoint(function(direction) {
+	$('.js-wp-flip-in-x').addClass('animated flipInX');
+}, {
+	offset: '50%'
+})
+
