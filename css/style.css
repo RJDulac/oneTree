@@ -600,5 +600,50 @@ footer p {
 	.moto {
 		font-size: 2.2rem;
 	}
-
 }
+
+/*buggy test on another machine*/
+@media only screen and (max-width: 768px) {
+	.moto {
+		display: none;
+	}
+	.fa-arrow-down {
+		position: absolute;
+		right: 60px;
+		top: 150px;
+	}
+	.monka-img,
+	.mario-img,
+	.monice-img {
+		width: 65px;
+		height: 65px;
+	}
+	.num-content {
+		height: 130px;
+		width: 130px;
+	}
+	.mum {
+		margin-left: 0;
+	}
+	.fa-facebook-square,
+	.fa-twitter-square,
+	.fa-google-plus-square,
+	.fa-instagram {
+		font-size: 30px;
+	}
+	.social-links li {
+		display: inline-block;
+		margin-right: 10px;
+		margin-top: 10px;
+		padding-right: 15px;
+	}		
+}
+
+@media only screen and (max-width: 480px) {
+	.testimonal {
+		margin-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+}
+
+
