@@ -551,3 +551,54 @@ footer p {
 .js-wp-jack-in-the-box.animated {
 	opacity: 1;
 }
+
+/*Media queries*/
+
+@media only screen and (max-width: 1920px) {
+	.wall-sticker {
+		font-size: 5rem;
+		padding-top: 16rem 20rem 10rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.fa-facebook-square,
+	.fa-twitter-square,
+	.fa-google-plus-square,
+	.fa-instagram {
+		font-size: 43px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.navbar {
+		font-size: 15px;
+	}
+	.fa-arrow-down {
+		position: absolute;
+		right: 135px;
+	}
+	.monka-img,
+	.mario-img,
+	.monice-img {
+		width: 85px;
+		height: 85px;
+	}
+	.testimonials-hr {
+		width: 210px;
+	}
+	.fa-facebook-square,
+	.fa-twitter-square,
+	.fa-google-plus-square,
+	.fa-instagram {
+		font-size: 23px;
+	}	
+}
+
+@media only screen and (max-width: 992px) {
+	.moto {
+		font-size: 2.2rem;
+	}
+
+}
